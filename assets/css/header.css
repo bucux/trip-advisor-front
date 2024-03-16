@@ -1,0 +1,85 @@
+
+/* HEADER */
+
+header {
+  position: fixed;
+  left: 0; 
+  right: 0; 
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header nav {
+  display: flex;
+}
+
+.fauxBoutonHeader {
+  border-radius: 30px;
+  background-color: white;
+  border-style: none;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fauxBoutonHeader:hover {
+  background-color: rgb(237, 237, 237);
+}
+
+#boutonConnexion {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  display: none;
+}
+
+#boutonConnexion:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.labelHeader { display: none; } 
+
+.iconsHeader { display: none;}
+
+#menuIcon { font-size: large; }
+
+#tripAdIcon { width: 132px; }
+
+@media (min-width: 768px) {
+
+  #menuIcon { display: none; }
+
+  #tripAdIcon { width: 190px; }
+
+  #boutonConnexion { display: block;}
+
+  .iconsHeader {display: flex;} /*attention à ne pas mettre block, car ça perdrait les propriétés du flex*/
+
+}
+
+@media (min-width: 1024px) {
+
+  .labelHeader { display: block; }
+
+  #loupeIcon { display: none; }
+
+}
+
+@media (min-width: 1184px) {
+
+}

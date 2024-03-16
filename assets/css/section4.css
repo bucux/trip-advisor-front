@@ -1,0 +1,81 @@
+
+/* SECTION4 */
+
+.sous-section {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.labelCaroussel {
+  width: 290px;
+  padding-right: 20px;
+}
+
+.labelCaroussel > p {
+  margin-bottom: 30px;
+}
+
+.caroussel { 
+  display: flex;
+  width: 795px;
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  scrollbar-width: none; 
+  -ms-overflow-style: none;  
+  gap: 10px;
+}
+
+.caroussel::-webkit-scrollbar { 
+  display: none; 
+}
+
+.offre {
+  width: 256px;
+  overflow: hidden;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.offre > * {
+  margin-top: 10px;
+}
+
+.offre p {
+  font-size: 14px;
+}
+
+.section4 a {
+  color: rgb(58, 58, 58);
+  font-weight: 600;
+}
+
+.tripAdvisorChoice {
+  position: absolute;
+  height: 40px;
+  width: 30px;
+  border-radius: 20px 20px 5px 5px;
+  top: 140px;
+  left: 10px;
+}
+
+.tripAdvisorHeart {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 90%;
+  top: 10px;
+  left: 205px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notes{
+  display: flex;
+  gap: 10px;
+}
+
+.notes p:nth-child(1){
+  color: rgb(0, 165, 0);
+}

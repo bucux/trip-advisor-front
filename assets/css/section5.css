@@ -1,0 +1,26 @@
+
+
+/* SECTION5 */
+
+.section5 {
+  margin-bottom: 120px;
+}
+
+.section5 > div {
+  display: flex;
+  gap: 10px;
+}
+
+.section5 p {
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.signature {
+  display: flex;
+  align-items: center;
+}
+
+.signature strong {
+  font-weight: bold; /* Ceci force le texte à être en gras, car le reset css empêchait le strong */
+}

@@ -1,0 +1,32 @@
+
+
+
+/* CONTACT2 */
+
+#contact2 {
+  height: 450px;
+  width: 300px;
+  background-color: rgb(188, 188, 188);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#contact2 button {
+  background-color: rgb(183, 105, 255);
+  display: none;
+}
+
+#contact2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+

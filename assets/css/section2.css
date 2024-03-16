@@ -1,0 +1,52 @@
+
+/* SECTION2 */
+
+.section2 {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.section2 > div {
+  display: flex;
+}
+
+#section2-minitexte {
+  font-size: 10px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#section2-minitexte div {
+  display: flex;
+  margin-right: 20px;
+  width: 300px;
+}
+
+#section2-minitexte a {
+  margin: 0 10px;
+}
+
+.section2 a {
+  text-decoration: none; 
+  color: black;
+}
+
+#fauxBoutonSection2 {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  background-color: black;
+  color: white;
+  display: flex;
+  font-size: 12px;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+  padding: 12px;
+  gap: 10px;
+}
+
+#fauxBoutonSection2:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

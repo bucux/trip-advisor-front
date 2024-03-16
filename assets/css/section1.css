@@ -1,0 +1,33 @@
+
+
+/* SECTION1 */
+
+.section1 nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.fauxBoutonSection1 {
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+  border-color: black;
+  background-color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 170px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.fauxBoutonSection1:hover {
+  background-color: black;
+  color: white;
+}

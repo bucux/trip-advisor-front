@@ -1,0 +1,20 @@
+
+/* FOOTER */
+
+
+footer {
+  background-color: #FAF1ED;
+  height: 155px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  text-align: center;
+  margin-left: 10px;
+}
+
+footer strong, footer b {
+  font-weight: bold; /* Ceci force le texte à être en gras, car le reset css empêchait le strong */
+}
