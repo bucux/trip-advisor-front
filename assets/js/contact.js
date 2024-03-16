@@ -8,6 +8,7 @@ const contact2Message = document.getElementById("contact2Message")
 const buttonOK = document.querySelector("#contact2 button")
 let backend = 'http://localhost:3000'
 
+console.log(window.location.hostname)
 if (window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
   serveurPath = 'site--contactform--tripadvisor-back--ving-btfr.code.run'
 }
