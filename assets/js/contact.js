@@ -9,7 +9,7 @@ const buttonOK = document.querySelector("#contact2 button")
 let backend = 'http://localhost:3000'
 
 if (window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
-  serveurPath = 'chemin sur northflank'
+  serveurPath = 'site--contactform--tripadvisor-back--ving-btfr.code.run'
 }
 
 const clickContact = () => {
