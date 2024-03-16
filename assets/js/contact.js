@@ -10,7 +10,7 @@ let backend = 'http://localhost:3000'
 
 console.log(window.location.hostname)
 if (window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
-  serveurPath = 'site--contactform--tripadvisor-back--ving-btfr.code.run'
+  backend = 'site--contactform--tripadvisor-back--ving-btfr.code.run'
 }
 
 const clickContact = () => {
