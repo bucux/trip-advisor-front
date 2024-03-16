@@ -43,6 +43,7 @@ const clickSubmit = (e) => {
 
 const post = async (data) => {
   try{
+    console.log(backend)
     const rep = await axios.post(`${backend}/contact`, data);
     majContact2(rep.data.message)
     contact.style.display = "none"
