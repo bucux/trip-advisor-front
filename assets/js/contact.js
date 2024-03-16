@@ -10,7 +10,7 @@ let backend = 'http://localhost:3000'
 
 console.log(window.location.hostname)
 if (window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
-  backend = 'site--contactform--tripadvisor-back--ving-btfr.code.run'
+  backend = 'https://site--contactform--tripadvisor-back--ving-btfr.code.run' // ne pas oublier https:// sinon, c'est considéré comme un chemin relatif (qui s'ajoute à l'url de netlify)
 }
 
 const clickContact = () => {
