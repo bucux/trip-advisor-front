@@ -8,7 +8,6 @@ const contact2Message = document.getElementById("contact2Message")
 const buttonOK = document.querySelector("#contact2 button")
 let backend = 'http://localhost:3000'
 
-console.log(window.location.hostname)
 if (window.location.hostname !== "localhost" && window.location.hostname !== "127.0.0.1") {
   backend = 'https://site--contactform--9gz4q7sb7sbj.code.run' // ne pas oublier https:// sinon, c'est considéré comme un chemin relatif (qui s'ajoute à l'url de netlify)
 }
